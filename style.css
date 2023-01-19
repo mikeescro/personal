@@ -33,7 +33,7 @@ p {
 
 
 /*Using media queries we make the nav more responsive to smaller screen sizes*/
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
     .main-nav {
         font-size: 0.9rem;
         padding: 0;
