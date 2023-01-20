@@ -78,14 +78,26 @@ a {
 	height: auto;
 }
 
-.about {
-	margin: 300px 2.9vw 120px 2.9vw;
-	font-size: 1.5em;
-}
-
 .contact {
 	margin: 180px;
 	font-size: 1.5em;
+}
+
+/*Using media queries we make the nav more responsive to smaller screen sizes*/
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.9rem;
+        padding: 0;
+    }
+
+    body {
+    font-size: 2.5vw;
+	}
+
+	.about {
+	margin: 300px 2.9vw 120px 2.9vw;
+	font-size: 1.5em;
+	}
 }
 
 /*FOOTER*/
